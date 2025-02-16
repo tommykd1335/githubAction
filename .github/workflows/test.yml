@@ -14,15 +14,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3  # Correcto
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # Correcto
+        uses: actions/setup-node@v3
         with:
           node-version: 18
 
       - name: Install dependencies
         run: npm install
+
+      - name: Install Jest globally (if needed)
+        run: npm install -g jest
 
       - name: Run tests
         run: npm test
