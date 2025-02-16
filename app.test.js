@@ -1,5 +1,6 @@
 const saludo = require('./app');
 
-test('Debe retornar "Hola Mundo"', ()=>{
-    expect(saludo()).toBe("Hola Mundo");
-})
+test('Debe retornar "Hello World"', ()=>{
+    expect(saludo()).toBe("Hello World");
+});
+
