@@ -1,0 +1,22 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "Hola mundo para probar github action",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommykd1335/githubAction.git"
+  },
+  "author": "Tommy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommykd1335/githubAction/issues"
+  },
+  "homepage": "https://github.com/tommykd1335/githubAction#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
